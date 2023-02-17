@@ -16,9 +16,9 @@ This is *italics*.
 
 The following is a blockquote:
 
-> This is a blockquote
-> This is the second line of a blockquote
-> This is the third line of a blockquote
+> This is a blockquote  
+> This is the second line of a blockquote  
+> This is the third line of a blockquote  
 
 I am using `git`.
 
