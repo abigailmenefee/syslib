@@ -29,8 +29,8 @@ to identify the apache2 directory. After utilizing
 to an **access.log** and **error.log**.
 
 ## Creating a Web Page
-1. Install w3m, a command line web browser.
-1. Once installed, I can no run:
+1. Install `w3m`, a command line web browser.
+1. Once installed, I can now run:
 
 `w3m 127.0.0.1` or `w3m localhost`
 
