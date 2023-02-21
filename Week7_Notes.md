@@ -60,7 +60,7 @@ page content.
 
 `sudo apt install php libapache2-mod-php`
 `sudo systemctl restart apache2`
-`systemctl status apache2``
+`systemctl status apache2`
 
 ### Basic Configurations
 Remember how earlier I said earlier Apache2 utilizes index.html
