@@ -1,0 +1,43 @@
+# Installing Apache HTTP Server
+
+## Review Apache Getting Started
+
+### Clients, Servers, and URLS
+1. URL - Uniform Resource Locators
+1. Client - i.e A Web Browser
+1. Server - i.e. Apache HTTP Server
+
+### Hostnames and DNS
+1. Domain Name System (DNS)
+
+### Configuration Files and Directives
+
+### Web Site Content
+
+### Log Files and Troubleshooting
+
+## Install Apache2
+After ensuring virtual machine is updated,
+install apache2:
+
+`sudo apt install apache2`
+
+## Basic Checks
+1. By utilizing `cd /var/log`, I am now able
+to identify the apache2 directory. After utilizing
+`cd apache2` and conducting `ls`, I now have access
+to an `access.log` and `error.log`.
+
+## Creating a Web Page
+1. Install w3m, a command line web browser.
+1. Once installed, I can no run:
+
+`w3m 127.0.0.1` or `w3m localhost`
+
+1. By utilizing `ip a`, I can identify my NIC, and use
+this to conduct `w3m [NIC IP Address]`
+1. By utilizing, the NIC IP Address, the Loopback IP
+Address (LocalHost), I can visit default site. I can
+also utilize the External IP Address for my VIrtual Machine
+to access a graphical version of this Apache 2 Ubuntu
+default page.
