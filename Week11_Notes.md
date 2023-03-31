@@ -11,13 +11,13 @@ sudo a2enmod rewrite
 sudo systemctl restart apache2
 ```
 
-1. Also install `unzip` as this will be used when unzipping the file.
+2. Also install `unzip` as this will be used when unzipping the file.
 
 ```
 sudo apt install unzip
 ```
 
-1. First I needed to retreive the Omeka Classic Zip file and extract it. To
+3. First I needed to retreive the Omeka Classic Zip file and extract it. To
 do this:
 
 ```
@@ -31,7 +31,7 @@ When looking at the above script, it is important to note that I chose to
 copy the omeka-3.1 directory and rename as omeka, rather than just rename
 the omeka-3.1 directory to omeka. I did this just in case I made a mistake!
 
-1. Now that I am set up, it is necessary for me to create a new user and a     
+4. Now that I am set up, it is necessary for me to create a new user and a     
 new database in MySQL for Omeka. To do this:
 
 ```
@@ -44,7 +44,7 @@ show databases;
 \q
 ```
 
-1. Now that I created the user and database in mySQL, next it is necessary to
+5. Now that I created the user and database in mySQL, next it is necessary to
 update the db.ini file located at `/var/www/html/omeka`.
 
 ```
@@ -55,13 +55,13 @@ password = "XvBj94a13"
 dbname = "omeka"
 ```
 
-1. Then I navigated to `/var/www/html/omeka/files` and changed file ownership.
+6. Then I navigated to `/var/www/html/omeka/files` and changed file ownership.
 
 ```
 sudo chown -R www-data:www-data *
 ```
 
-1. Lastly, I restarted Apache2 and mySQL.
+7. Lastly, I restarted Apache2 and mySQL.
 
 ```
 sudo systemctl restart apche2
