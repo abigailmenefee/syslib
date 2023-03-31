@@ -1,4 +1,4 @@
-#Install Omeka
+# Install Omeka
 
 To install Omeka, I completed the following steps:
 
