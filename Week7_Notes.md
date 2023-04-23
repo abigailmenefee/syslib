@@ -63,7 +63,7 @@ page content.
 `systemctl status apache2`
 
 ### Basic Configurations
-Remember how earlier I said earlier Apache2 utilizes index.html
+Remember how earlier I said Apache2 utilizes index.html
 as default to a file? Since we are using PHP, we now want to
 use index.php as default to a file. To do this, we need to edit
 **dire.conf** file in the **/etc/apache2/mods-enabled/** directory.
